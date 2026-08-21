@@ -49,10 +49,10 @@ The grade for the class is based on the following elements:
 
 | Assessment | Percent of Final Grade |
 |---|---|
-| Participation & In-Class Work | 15% |
-| Quizzes | 15% |
+| Participation & In-Class Work | 20% |
+| Pop Quizzes | 15% |
 | Individual Worksheets | 35% |
-| Group Data Project | 35% |
+| Group Data Project | 30% |
 
 ---
 
@@ -66,12 +66,9 @@ Regular attendance and active participation in class discussions are essential. 
 
 ---
 
-### Quizzes
+### Pop Quizzes
 
-Quizzes conceptual understanding through multiple-choice, matching, and numeric fill-in questions. The quizzes will be in-person, using pen and paper. No electronic devices will be permitted during the quiz.
-
-- Approximately 6 quizzes across the semester
-- The lowest 2 quiz scores will be dropped. No make-up quizzes will be offered.
+Pop quizzes assess conceptual understanding through short multiple-choice, matching, and numeric fill-in questions. The quizzes will be in-person, using pen and paper. No electronic devices will be permitted during the quiz. There will be approximately 6 quizzes across the semester. The lowest 2 quiz scores will be dropped. No make-up quizzes will be offered.
 
 ---
 
@@ -81,10 +78,10 @@ Four worksheets combine conceptual questions with applied coding exercises, alig
 
 | Worksheet | Topic | Due Date |
 |---|---|---|
-| WS 1 | Visualization | Oct 6 |
-| WS 2 | Data Wrangling | Oct 27 |
-| WS 3 | Causality & Time | Nov 19 |
-| WS 4 | Modeling & Ethics | Dec 15 |
+| WS 1 | Getting started | Sept 20 |
+| WS 2 | Visualization | Oct 4 |
+| WS 3 | Data Wrangling | Oct 27 |
+| WS 4 | Data Recoding & Modeling | Nov 20 |
 
 **Grading:** Each worksheet is graded using a rubric evaluating (1) code correctness and reproducibility, (2) written explanations and interpretation, and (3) presentation and communication. Submissions must render as Quarto HTML. If your document does not render, it cannot receive full credit.
 
@@ -100,16 +97,14 @@ This project allows you to identify an economic or social problem, locate and ev
 
 | Milestone | Due Date | Weight | Description |
 |---|---|---|---|
-| **Team Charter** | Oct 1 (Week 4) | 3% | One-page document: research interest, team roles, norms, and communication plan |
-| **Data Proposal** | Oct 15 (Week 6) | 7% | Two pages: research question, proposed data sources and feasibility assessment |
-| **Progress Check-in** | Nov 5 (Week 9) | 5% | In-class demonstration: show cleaned data and at least one preliminary visualization |
-| **Draft Report** | Dec 3 (Week 12) | — | Submitted for peer review (not graded directly) |
-| **Final Report** | Dec 8 (Week 13) | 15% | 8–10 pages including figures and tables, submitted as a reproducible Quarto document |
-| **Presentation** | Dec 10 or Dec 15 | 5% | 6-minute group presentation plus 2 minutes of Q&A |
+| **Team Charter** | Oct 1 (Week 4) | 5% | One-page document: research interest, team roles, norms, and communication plan |
+| **Data Proposal** | Oct 15 (Week 6) | 5% | 1-2 pages: research question, proposed data sources and feasibility assessment |
+| **Progress Check-in** | Nov 5 (Week 9) | 5% | Submit at least one preliminary visualization |
+| **Presentation** | Dec 15 | 15% | Present & submit your interactive report |
 
 #### Accountability & Individual Adjustment
 
-At the end of the semester, each group member will complete a confidential **peer evaluation** of their teammates' contributions. Individual project grades may be adjusted by up to 1 full letter grade based on these evaluations. Students who do not contribute equitably will not receive the same grade as their teammates.
+At the end of the semester, each group member will complete a confidential **peer evaluation** of their teammates adherence to the team charter. Individual project grades may be adjusted by up to 1 full letter grade (upwards or downward) based on these evaluations. Students who do not abide by the team charter will not receive the same grade as their teammates.
 
 ---
 
@@ -127,7 +122,7 @@ Many classes will include time for working through coding exercises. Bring a ful
 
 ### Office Hours
 
-I hold regular office hours on Wednesday afternoons via video conference software. These are ideal for asking questions about the class, getting help with problem sets, or troubleshooting coding challenges. *Please register ahead of time for a time slot using the sign-up link on Canvas.*
+I hold regular office hours on Wednesday afternoons via video conference software. These are ideal for asking questions about the class, getting help with problem sets, or troubleshooting coding challenges. *Please register at least 2 hours before the start of my office hours using the sign-up link on Canvas.*
 
 ### Free Statistical Software
 
@@ -153,64 +148,63 @@ Additional readings are linked below and on Canvas. Readings listed for a given 
 
 ### Unit 1: Getting Started (Sep 8–17)
 
-| # | Date | Topic | Readings | Assignments |
-|---|------|-------|----------|-------------|
-| 1 | Sep 8 | Welcome to Data Science | — | |
-| 2 | Sep 10 | Meet the Toolkit: R, RStudio & Quarto | [R4DS Ch. 2](https://r4ds.hadley.nz/explore-intro.html) · [IMS Sec. 1.1–1.2](https://openintro-ims.netlify.app/data-hello) | Quiz 1 |
-| 3 | Sep 15 | *Lab* | — | |
-| 4 | Sep 17 | What Is Data? Observations, Variables, Data Structures & the Politics of Measurement | — | |
+| # | Date | Topic | Readings |
+|---|------|-------|----------|
+| 1 | Sep 8 | Welcome to Data Science for Economics | — |
+| 2 | Sep 10 | Meet the Toolkit | [R4DS Intro](https://r4ds.hadley.nz/intro.html) · [IMS Ch. 1](https://openintro-ims.netlify.app/data-hello) |
+| 3 | Sep 15 | What Is Data? Observations, Variables & the Politics of Measurement | [NYT: American Puzzle](https://www.nytimes.com/interactive/2023/10/16/us/census-race-ethnicity.html) |
+| 4 | Sep 17 | *Lab:* Reproducible Workflow | [R4DS Ch. 6](https://r4ds.hadley.nz/workflow-scripts.html) · [R4DS Ch. 28](https://r4ds.hadley.nz/quarto.html) |
 
 ---
 
-### Unit 2: Visualizing Data (Sep 22–Oct 6)
+### Unit 2: Visualizing Data (Sep 22–Oct 1)
 
-| # | Date | Topic | Readings | Assignments |
-|---|------|-------|----------|-------------|
-| 5 | Sep 22 | Data & Visualization; Introduction to ggplot2 | [R4DS Ch. 3](https://r4ds.hadley.nz/data-visualisation.html) | Quiz 2; Groups form this week |
-| 6 | Sep 24 | Visualizing Numerical & Categorical Data | [IMS Ch. 4](https://openintro-ims.netlify.app/04-explore-categorical) · [IMS Ch. 5](https://openintro-ims.netlify.app/05-explore-numerical) | Quiz 3 |
-| 7 | Sep 29 | *Lab* | — | |
-| 8 | Oct 1 | Effective Data Visualization: Storytelling vs Misrepresentation | [IMS Ch. 6](https://openintro-ims.netlify.app/explore-applications) | **Team Charter due** |
-| 9 | Oct 6 | Geospatial Data | — | **Worksheet 1 due** |
-
----
-
-### Unit 3: Working with Data (Oct 8–27)
-
-| # | Date | Topic | Readings | Assignments |
-|---|------|-------|----------|-------------|
-| 10 | Oct 8 | Data Wrangling: Working with a Single Data Frame | [R4DS Ch. 5](https://r4ds.hadley.nz/transform) | Quiz 4 |
-| 11 | Oct 13 | Tidy Data & Working with Multiple Data Frames | [JSS "Tidy Data"](https://www.jstatsoft.org/article/view/v059i10/) · [R4DS Ch. 12](https://r4ds.hadley.nz/data-import.html) · [R4DS Ch. 13](https://r4ds.hadley.nz/relational-data) | Quiz 5 |
-| 12 | Oct 15 | *Lab* | — | **Data Proposal due**; Peer Code Review #1 assigned |
-| 13 | Oct 20 | Data Merge Ethical Audit | [Ayoub (2026)](https://www.brennancenter.org/our-work/research-reports/dangers-trump-administrations-data-consolidation-efforts) | Peer Code Review #1 due |
-| 14 | Oct 22 | Data Import, Types & Recoding | [R4DS Ch. 11](https://r4ds.hadley.nz/strings) · [R4DS Ch. 15](https://r4ds.hadley.nz/factors) · [R4DS Sec. 16.1–16.3](https://r4ds.hadley.nz/dates-and-times) | Quiz 6 |
-| 15 | Oct 27 | *Lab* | — | **Worksheet 2 due** |
+| # | Date | Topic | Readings |
+|---|------|-------|----------|
+| 5 | Sep 22 | Introduction to Data Visualization | [R4DS Ch. 1](https://r4ds.hadley.nz/data-visualize.html) |
+| 6 | Sep 24 | Visualizing Numerical & Categorical Data | [IMS Ch. 4](https://openintro-ims.netlify.app/04-explore-categorical) · [IMS Ch. 5](https://openintro-ims.netlify.app/05-explore-numerical) |
+| 7 | Sep 29 | Effective Data Visualization: Storytelling vs Misrepresentation | [IMS Ch. 6](https://openintro-ims.netlify.app/explore-applications) |
+| 8 | Oct 1 | *Lab:* Redlining, Maps & Geospatial Data | — |
 
 ---
 
-### Unit 4: Causality, Time & Context (Oct 29–Nov 19)
+### Unit 3: Data Gathering & Wrangling (Oct 6–Nov 10)
 
-| # | Date | Topic | Readings | Assignments |
-|---|------|-------|----------|-------------|
-| 16 | Oct 29 | Scientific Studies, Confounding & Simpson's Paradox | [IMS Ch. 2](https://openintro-ims.netlify.app/02-data-design) · [R4DS Ch. 7](https://r4ds.hadley.nz/workflow-basics) | Quiz 7 |
-| — | Nov 3 | *Election Day — No Class* | | |
-| 17 | Nov 5 | *Lab* | — | **Project Progress Check-in (in-class)** |
-| 18 | Nov 10 | Causality: Observational Studies & Natural Experiments | — | |
-| 19 | Nov 12 | Panel Data: Structure & Applications in Economics | — | |
-| 20 | Nov 17 | Time Series: Trends, Log Transformations & Forecasting | — | Peer Code Review #2 assigned |
-| 21 | Nov 19 | Time-Use Surveys: Data, Invisible Labor & the Politics of Measurement | [ATUS overview](https://www.bls.gov/tus) · Complete time-use diary | **Worksheet 3 due**; Peer Code Review #2 due |
+| # | Date | Topic | Readings |
+|---|------|-------|----------|
+| 9 | Oct 6 | Data Wrangling: Working with a Single Data Frame | [R4DS Ch. 3](https://r4ds.hadley.nz/data-transform.html) |
+| 10 | Oct 8 | Data Wrangling: Single Data Frame (continued) | — |
+| 11 | Oct 13 | Tidy Data: Introduction to Pivoting and Reshaping | [R4DS Ch. 5](https://r4ds.hadley.nz/data-tidy.html) |
+| 12 | Oct 15 | Tidy Data: Time Series & Panel Data | [R4DS Ch. 17](https://r4ds.hadley.nz/datetimes.html) |
+| 13 | Oct 20 | Working with Multiple Data Frames | [R4DS Ch. 19](https://r4ds.hadley.nz/joins.html) |
+| 14 | Oct 22 | *Lab:* Joins & Ethics of Data Consolidation | [Ayoub (2026)](https://www.brennancenter.org/our-work/research-reports/dangers-trump-administrations-data-consolidation-efforts) |
+| 15 | Oct 27 | Data Types & Classes | [R4DS Ch. 16](https://r4ds.hadley.nz/factors) |
+| 16 | Oct 29 | Data Import, Recoding & Cleaning | [R4DS Ch. 7](https://r4ds.hadley.nz/data-import.html) |
+| — | Nov 3 | *Election Day — No Class* | — |
+| 17 | Nov 5 | Data Recoding & Cleaning; Text-as-Data | [R4DS Ch. 14](https://r4ds.hadley.nz/strings.html) |
+| 18 | Nov 10 | *Lab:* Wrangling & Visualizing our Time-Use Survey | — |
 
 ---
 
-### Unit 5: Modeling, Prediction & Ethics (Dec 1–15)
+### Unit 4: Modeling, Prediction & Algorithmic Fairness (Nov 12–Dec 1)
 
-| # | Date | Topic | Readings | Assignments |
-|---|------|-------|----------|-------------|
-| 22 | Dec 1 | Modeling, Part 1: A Single Predictor *(classes resume)* | [IMS Ch. 7](https://openintro-ims.netlify.app/07-model-slr) | Quiz 8 |
-| 23 | Dec 3 | Modeling, Part 2: Multiple Predictors | [IMS Ch. 8](https://openintro-ims.netlify.app/08-model-mlr) | **Draft Report due** (for peer review) |
-| 24 | Dec 8 | Algorithmic Decision-Making: Classifiers, Fairness & Power | [ProPublica, "Machine Bias" (2016)](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) | **Final Report due**; Draft Report Peer Review due |
-| 25 | Dec 10 | Interactive Data Visualization | — | |
-| 26 | Dec 15 | Interactive Data Visualization *(last day)* | — | **Worksheet 4 due** |
-| — | Finals week | Group presentations | — | Team Peer Evaluation due (Canvas form) |
+| # | Date | Topic | Readings |
+|---|------|-------|----------|
+| 19 | Nov 12 | Modeling: Trend Lines as Summaries | [IMS Ch. 7](https://openintro-ims.netlify.app/07-model-slr) |
+| 20 | Nov 17 | Modeling: Shapes of Relationships | TBD |
+| 21 | Nov 19 | Scientific Studies, Confounding & Simpson's Paradox | [IMS Ch. 2](https://openintro-ims.netlify.app/02-data-design) |
+| 22 | Dec 1 | *Lab:* Algorithmic Decision-Making & Fairness *(classes resume)* | [ProPublica, "Machine Bias" (2016)](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) |
+
+---
+
+### Unit 5: Communicate Results with Interactive Dashboards & Reports (Dec 3–15)
+
+| # | Date | Topic | Readings |
+|---|------|-------|----------|
+| 23 | Dec 3 | Interactive Data Visualization | TBD |
+| 24 | Dec 8 | Generating Interactive Reports | — |
+| 25 | Dec 10 | Work on group projects | — |
+| 26 | Dec 15 | Presentations *(last day)* | — |
 
 ---
 
