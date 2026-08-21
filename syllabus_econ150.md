@@ -49,20 +49,20 @@ The grade for the class is based on the following elements:
 
 | Assessment | Percent of Final Grade |
 |---|---|
-| Participation & In-Class Work | 20% |
+| Exit Tickets & In-Class Work | 20% |
 | Pop Quizzes | 15% |
 | Individual Worksheets | 35% |
 | Group Data Project | 30% |
 
 ---
 
-### Participation & In-Class Work
+### Exit Tickets & In-Class Work
 
 Regular attendance and active participation in class discussions are essential. We will frequently discuss case studies and debate the merits and limitations of data science applications in economics and public policy. Your thoughtful engagement in these discussions, along with completion of in-class coding exercises and activities, contributes to this portion of your grade.
 
-- **Attendance:** Missing more than 3 classes will result in a deduction from your participation grade.
-- **In-class activities:** You will occasionally submit your work-in-progress by end of class. These are graded on a Complete/Incomplete basis.
-- **Discussion contributions:** Active, respectful engagement with case study discussions and class debates.
+On most class days, you will submit a brief response or your work-in-progress via Canvas before leaving. Prompts will vary. These are graded on a Complete/Incomplete basis, and you may miss up to 3 without penalty. No make-up tickets are offered; if you are absent, that day counts as one of your drops.
+
+I reserve the right to also include active, respectful engagement with case study discussions and class debates as part of the grade.
 
 ---
 
@@ -197,7 +197,7 @@ Additional readings are linked below and on Canvas.
 
 ---
 
-### Unit 5: Communicate Results with Interactive Dashboards & Reports (Dec 3–15)
+### Unit 5: Communicating Results with Interactive Dashboards & Reports (Dec 3–15)
 
 | # | Date | Topic | Readings |
 |---|------|-------|----------|
@@ -219,7 +219,7 @@ Additional readings are linked below and on Canvas.
 ### Communication Expectations
 
 - *Please post any questions to the Q & A forum on Canvas*. You are likely not the only person with this question, and others will benefit from the answer. (Note: High-quality first responses to peer questions are eligible for extra credit.)
-- Of course, if you have a personal question or concern that you would rather not share with the class, you are still welcome to email me. In this case, please include "ECON 150" in the subject line.
+- If you have personal questions or concerns that you would rather not share with the class, you are of course welcome to email me. In this case, please include "ECON 150" in the subject line.
 
 ### Attendance Policy
 
@@ -255,7 +255,7 @@ Data science is collaborative work. In this course, your group project requires 
 We are at a very early stage of understanding how best to use Large Language models (LLMs) in teaching and learning. It seems clear that there are benefits, but also substantial downsides to using LLMs in your education (wrong answers, "hallucinations", undermining of learning). In our class, we will adhere to the following rules:
 
 - If you choose to use an LLM for a *permitted* assignment, you need to include a prominent acknowledgment section at the end of your document. In this section, you need to specify *how* you have used the LLM in your assignment. For example: "I used ChatGPT to generate initial R code for data cleaning, which I reviewed, debugged, and modified. I take full responsibility for all final code and results."
-- LLMs may *not* be used during quizzes or exams.
+- LLMs may *not* be used during in-class quizzes.
 - LLMs should not be used to generate written explanations that you submit as your own work without significant modification and acknowledgment.
 - When in doubt, ask me.
 
@@ -269,7 +269,9 @@ Should circumstances require that this course be moved to remote delivery, we wi
 
 ### Disclaimer
 
-My lectures and course materials, including presentation slides, videos, assignments, datasets, and similar materials, and all course recordings, are protected by U.S. copyright laws and by university policy (unless otherwise noted). I am the exclusive owner of the copyright in materials I create. You may take notes and make copies of course materials for your own use in this class. You may also share those materials with another student who is registered and enrolled in this course. You may NOT reproduce, distribute, upload, or display any lecture notes or recordings or course materials in any other way — whether or not a fee is charged — without my express written consent. If you do so, you may be subject to disciplinary action under the UMass Code of Student Conduct. Similarly, you own the copyright to your original projects and exam responses.
+My lectures and course materials, including presentation slides, videos, assignments, datasets, and similar materials, and all course recordings, are protected by U.S. copyright laws and by university policy (unless otherwise noted, see below). I am the exclusive owner of the copyright in materials I create. You may take notes and make copies of course materials for your own use in this class. You may also share those materials with another student who is registered and enrolled in this course. You may NOT reproduce, distribute, upload, or display any lecture notes or recordings or course materials in any other way — whether or not a fee is charged — without my express written consent. If you do so, you may be subject to disciplinary action under the UMass Code of Student Conduct. Similarly, you own the copyright to your original projects and exam responses.
+
+Parts of the course curriculum is adapted from [Data Science in a Box](https://datasciencebox.org). Those materials and ideas are [Creative Commons Attribution-ShareAlike International](https://creativecommons.org/licenses/by-sa/4.0/) licensed. 
 
 ---
 
