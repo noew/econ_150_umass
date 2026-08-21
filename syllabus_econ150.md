@@ -140,7 +140,7 @@ The main readings for this class are drawn from two free online textbooks:
 - (**R4DS**) *R for Data Science*, Wickham & Grolemund, [r4ds.hadley.nz](https://r4ds.hadley.nz)
 - (**IMS**) *Introduction to Modern Statistics*, Çetinkaya-Rundel & Hardin, [openintro-ims.netlify.app](https://openintro-ims.netlify.app)
 
-Additional readings are linked below and on Canvas. Readings listed for a given date should be completed **before** that class session.
+Additional readings are linked below and on Canvas. 
 
 ---
 
