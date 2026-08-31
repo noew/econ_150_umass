@@ -49,8 +49,7 @@ The grade for the class is based on the following elements:
 
 | Assessment | Percent of Final Grade |
 |---|---|
-| Exit Tickets & In-Class Work | 20% |
-| Pop Quizzes | 15% |
+| Exit Tickets & In-Class Work | 35% |
 | Individual Worksheets | 35% |
 | Group Data Project | 30% |
 
@@ -60,15 +59,9 @@ The grade for the class is based on the following elements:
 
 Regular attendance and active participation in class discussions are essential. We will frequently discuss case studies and debate the merits and limitations of data science applications in economics and public policy. Your thoughtful engagement in these discussions, along with completion of in-class coding exercises and activities, contributes to this portion of your grade.
 
-On most class days, you will submit a brief response or your work-in-progress via Canvas before leaving. Prompts will vary. These are graded on a Complete/Incomplete basis, and you may miss up to 3 without penalty. No make-up tickets are offered; if you are absent, that day counts as one of your drops.
+On most class days, you will submit a brief response or your work-in-progress (usually via Canvas, but occasionally on pen & paper) before leaving. Prompts will vary. These are graded on a Complete/Incomplete basis, and you may miss up to 4 without penalty. No make-up tickets are offered; if you are absent, that day counts as one of your drops.
 
 I reserve the right to also include active, respectful engagement with case study discussions and class debates as part of the grade.
-
----
-
-### Pop Quizzes
-
-Pop quizzes assess conceptual understanding through short multiple-choice, matching, and numeric fill-in questions. The quizzes will be in-person, using pen and paper. No electronic devices will be permitted during the quiz. There will be approximately 6 quizzes across the semester. The lowest 2 quiz scores will be dropped. No make-up quizzes will be offered.
 
 ---
 
