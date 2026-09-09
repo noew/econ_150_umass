@@ -140,7 +140,7 @@ Additional readings are linked below and on Canvas.
 | # | Date | Topic | Readings |
 |---|------|-------|----------|
 | 1 | Sep 8 | Welcome to Data Science for Economics | — |
-| 2 | Sep 10 | Meet the Toolkit | [R4DS Intro](https://r4ds.hadley.nz/intro.html) · [IMS Ch. 1](https://openintro-ims.netlify.app/data-hello) |
+| 2 | Sep 10 | Meet the Toolkit | [R4DS Intro](https://r4ds.hadley.nz/intro.html) |
 | 3 | Sep 15 | What Is Data? Observations, Variables & the Politics of Measurement | [NYT: American Puzzle](https://www.nytimes.com/interactive/2023/10/16/us/census-race-ethnicity.html) |
 | 4 | Sep 17 | *Lab:* Reproducible Workflow | [R4DS Ch. 6](https://r4ds.hadley.nz/workflow-scripts.html) · [R4DS Ch. 28](https://r4ds.hadley.nz/quarto.html) |
 
