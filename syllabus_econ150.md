@@ -49,19 +49,15 @@ The grade for the class is based on the following elements:
 
 | Assessment | Percent of Final Grade |
 |---|---|
-| Exit Tickets & In-Class Work | 35% |
+| In-Class Work & Reflections | 35% |
 | Individual Worksheets | 35% |
 | Group Data Project | 30% |
 
 ---
 
-### Exit Tickets & In-Class Work
+### In-Class Work & Reflections
 
-Regular attendance and active participation in class discussions are essential. We will frequently discuss case studies and debate the merits and limitations of data science applications in economics and public policy. Your thoughtful engagement in these discussions, along with completion of in-class coding exercises and activities, contributes to this portion of your grade.
-
-On most class days, you will submit a brief response or your work-in-progress (usually via Canvas, but occasionally on pen & paper) before leaving. Prompts will vary. These are graded on a Complete/Incomplete basis, and you may miss up to 4 without penalty. No make-up tickets are offered; if you are absent, that day counts as one of your drops.
-
-I reserve the right to also include active, respectful engagement with case study discussions and class debates as part of the grade.
+Regular attendance and active participation in class discussions are essential. This portion of the grade rewards participation and thoughtful engagement, not correctness. On most class days, you will submit a brief response to a prompt or your work-in-progress (via Canvas or on pen & paper) before leaving. Occasionally you will be asked to submit a somewhat longer reflection (i.e. 200 words) a few days after the class. The items in this assignment category are graded on a Complete/Incomplete basis, and you may miss up to 4 without penalty. No make-up assignments are offered; if you are absent, that day counts as one of your drops.
 
 ---
 
@@ -144,8 +140,8 @@ Additional readings are linked below and on Canvas.
 | # | Date | Topic | Readings |
 |---|------|-------|----------|
 | 1 | Sep 8 | Welcome to Data Science for Economics | — |
-| 2 | Sep 10 | Meet the Toolkit | [R4DS Intro](https://r4ds.hadley.nz/intro.html) · [IMS Ch. 1](https://openintro-ims.netlify.app/data-hello) |
-| 3 | Sep 15 | What Is Data? Observations, Variables & the Politics of Measurement | [NYT: American Puzzle](https://www.nytimes.com/interactive/2023/10/16/us/census-race-ethnicity.html) |
+| 2 | Sep 10 | Meet the Toolkit | [R4DS Intro](https://r4ds.hadley.nz/intro.html) |
+| 3 | Sep 15 | Data, Metadata, and the Politics of Measurement | [NYT: American Puzzle](https://www.nytimes.com/interactive/2023/10/16/us/census-race-ethnicity.html) |
 | 4 | Sep 17 | *Lab:* Reproducible Workflow | [R4DS Ch. 6](https://r4ds.hadley.nz/workflow-scripts.html) · [R4DS Ch. 28](https://r4ds.hadley.nz/quarto.html) |
 
 ---
@@ -186,7 +182,7 @@ Additional readings are linked below and on Canvas.
 | 19 | Nov 12 | Modeling: Trend Lines as Summaries | [IMS Ch. 7](https://openintro-ims.netlify.app/07-model-slr) |
 | 20 | Nov 17 | Modeling: Shapes of Relationships | TBD |
 | 21 | Nov 19 | Scientific Studies, Confounding & Simpson's Paradox | [IMS Ch. 2](https://openintro-ims.netlify.app/02-data-design) |
-| 22 | Dec 1 | *Lab:* Algorithmic Decision-Making & Fairness *(classes resume)* | [ProPublica, "Machine Bias" (2016)](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) |
+| 22 | Dec 1 | *Lab:* Algorithmic Decision-Making & Fairness | [ProPublica, "Machine Bias" (2016)](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) |
 
 ---
 
