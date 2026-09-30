@@ -2,11 +2,9 @@
 
 **ECON 150 | Fall 2026**
 
-*Instructor: Noé M. Wiener*
+*University of Massachusetts Amherst*
 
 ---
-
-University of Massachusetts Amherst
 
 ### Course Details
 
@@ -152,7 +150,7 @@ Additional readings are linked below and on Canvas.
 |---|------|-------|----------|
 | 5 | Sep 22 | Introduction to Data Visualization | [R4DS Ch. 1](https://r4ds.hadley.nz/data-visualize.html) |
 | 6 | Sep 24 | Visualizing Numerical & Categorical Data | [IMS Ch. 4](https://openintro-ims.netlify.app/04-explore-categorical) · [IMS Ch. 5](https://openintro-ims.netlify.app/05-explore-numerical) |
-| 7 | Sep 29 | Effective Data Visualization: Storytelling vs Misrepresentation | [IMS Ch. 6](https://openintro-ims.netlify.app/explore-applications) |
+| 7 | Sep 29 | Effective Data Visualization: Storytelling vs. Misrepresentation | [IMS Ch. 6](https://openintro-ims.netlify.app/explore-applications) |
 | 8 | Oct 1 | *Lab:* Redlining, Maps & Geospatial Data | — |
 
 ---
@@ -192,7 +190,7 @@ Additional readings are linked below and on Canvas.
 |---|------|-------|----------|
 | 23 | Dec 3 | Interactive Data Visualization | TBD |
 | 24 | Dec 8 | Generating Interactive Reports | — |
-| 25 | Dec 10 | Work on group projects | — |
+| 25 | Dec 10 | Work on Group Projects | — |
 | 26 | Dec 15 | Presentations *(last day)* | — |
 
 ---
