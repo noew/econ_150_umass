@@ -160,15 +160,15 @@ Additional readings are linked below and on Canvas.
 | # | Date | Topic | Readings |
 |---|------|-------|----------|
 | 9 | Oct 6 | Data Wrangling: Working with a Single Data Frame | [R4DS Ch. 3](https://r4ds.hadley.nz/data-transform.html) |
-| 10 | Oct 8 | Data Wrangling: Single Data Frame (continued) | — |
+| 10 | Oct 8 | Data Gathering | — |
 | 11 | Oct 13 | Tidy Data: Introduction to Pivoting and Reshaping | [R4DS Ch. 5](https://r4ds.hadley.nz/data-tidy.html) |
 | 12 | Oct 15 | Tidy Data: Time Series & Panel Data | [R4DS Ch. 17](https://r4ds.hadley.nz/datetimes.html) |
 | 13 | Oct 20 | Working with Multiple Data Frames | [R4DS Ch. 19](https://r4ds.hadley.nz/joins.html) |
 | 14 | Oct 22 | *Lab:* Joins & Ethics of Data Consolidation | [Ayoub (2026)](https://www.brennancenter.org/our-work/research-reports/dangers-trump-administrations-data-consolidation-efforts) |
 | 15 | Oct 27 | Data Types & Classes | [R4DS Ch. 16](https://r4ds.hadley.nz/factors) |
-| 16 | Oct 29 | Data Import, Recoding & Cleaning | [R4DS Ch. 7](https://r4ds.hadley.nz/data-import.html) |
+| 16 | Oct 29 | Data Recoding & Cleaning | [R4DS Ch. 7](https://r4ds.hadley.nz/data-import.html) |
 | — | Nov 3 | *Election Day — No Class* | — |
-| 17 | Nov 5 | Data Recoding & Cleaning; Text-as-Data | [R4DS Ch. 14](https://r4ds.hadley.nz/strings.html) |
+| 17 | Nov 5 | Text-as-Data | [R4DS Ch. 14](https://r4ds.hadley.nz/strings.html) |
 | 18 | Nov 10 | *Lab:* Wrangling & Visualizing our Time-Use Survey | — |
 
 ---
