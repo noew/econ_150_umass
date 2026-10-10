@@ -127,7 +127,9 @@ The main readings for this class are drawn from two free online textbooks:
 - (**R4DS**) *R for Data Science*, Wickham & Grolemund, [r4ds.hadley.nz](https://r4ds.hadley.nz)
 - (**IMS**) *Introduction to Modern Statistics*, Çetinkaya-Rundel & Hardin, [openintro-ims.netlify.app](https://openintro-ims.netlify.app)
 
-You will also be asked to view lectures from the LinkedIn Learning course ["Data Wrangling in R"](https://www.linkedin.com/learning/data-wrangling-in-r-14135737) by Mike Chapple. UMass Amherst subscribes to Linkedin Learning, so you can access this resource for free.
+You will also be asked to view videos from the following LinkedIn Learning courses. UMass Amherst subscribes to Linkedin Learning, so you can access these resources for free:
+
+- (**DwiR**) [*"Data Wrangling in R"*](https://www.linkedin.com/learning/data-wrangling-in-r-14135737) by Mike Chapple.
 
 ---
 
@@ -159,17 +161,17 @@ You will also be asked to view lectures from the LinkedIn Learning course ["Data
 
 | # | Date | Topic | Readings/Videos | Concepts |
 |---|------|-------|-----------------|----------|
-| 9 | Oct 6 | Data Wrangling: Working with a Single Data Frame | [R4DS Ch. 3](https://r4ds.hadley.nz/data-transform.html) | Pipelines; `filter()`; `mutate()`; `summarize()`; `count()`; units of observation |
-| 10 | Oct 8 | Data Gathering | — | Surveys and interviews; web scraping and APIs; privacy and consent; copyright and AI; webscraper.io |
-| 11 | Oct 13 | Tidy Data: Introduction to Pivoting and Reshaping | [R4DS Ch. 5](https://r4ds.hadley.nz/data-tidy.html) | wide vs long formats; id variables; `pivot`-commands; WB data |
-| 12 | Oct 15 | Tidy Data: Time Series & Panel Data | [R4DS Ch. 17](https://r4ds.hadley.nz/datetimes.html) |  |
-| 13 | Oct 20 | Working with Multiple Data Frames | [R4DS Ch. 19](https://r4ds.hadley.nz/joins.html) |  |
-| 14 | Oct 22 | *Lab:* Joins & Ethics of Data Consolidation | [Ayoub (2026)](https://www.brennancenter.org/our-work/research-reports/dangers-trump-administrations-data-consolidation-efforts) |  |
-| 15 | Oct 27 | Data Types & Classes | [R4DS Ch. 16](https://r4ds.hadley.nz/factors) |  |
-| 16 | Oct 29 | Data Recoding & Cleaning | [R4DS Ch. 7](https://r4ds.hadley.nz/data-import.html) |  |
+| 9 | Oct 6 | Data Wrangling: Working with a Single Data Frame | [R4DS Ch. 3](https://r4ds.hadley.nz/data-transform.html); DwiR: *Filtering Tibbles*; DwiR: *Subsetting Tibbles*; DwiR: *What Is Tidy Data?* | Pipelines; `filter()`; `mutate()`; `summarize()` and `count()`; units of observation |
+| 10 | Oct 8 | Data Gathering | DwiR: *What Are CSV Files?*; DwiR: *Importing CSV Files into R*; DwiR: *Reading Data from Databases and the Web* | Surveys and interviews; observation and experiments; web scraping and APIs; privacy and consent; copyright and AI |
+| 11 | Oct 13 | Tidy Data: Introduction to Pivoting and Reshaping | [R4DS Ch. 5](https://r4ds.hadley.nz/data-tidy.html); DwiR: *What Is Tidy Data?*; DwiR: *Wide vs. Long Datasets*; DwiR: *Making Wide Datasets Long with `pivot_longer()`* | Tidy-data principles; variables, observations, and values; wide and long data; pivoting |
+| 12 | Oct 15 | Tidy Data: Time Series & Panel Data | [R4DS Ch. 17](https://r4ds.hadley.nz/datetimes.html); DwiR: *Working with Dates and Times in R*; DwiR: *Making Wide Datasets Long with `pivot_longer()`*; DwiR: *Making Long Datasets Wide with `pivot_wider()`* | Dates and times; date components; time-series structure; reshaping panel data |
+| 13 | Oct 20 | Working with Multiple Data Frames | [R4DS Ch. 19](https://r4ds.hadley.nz/joins.html); DwiR: *Common Data Problems*; DwiR: *What Is Tidy Data?*; DwiR: *Segmenting the Coal Dataset* | Observational units; multiple tables; separating data by unit; avoiding duplicated or double-counted observations |
+| 14 | Oct 22 | *Lab:* Joins & Ethics of Data Consolidation | [Ayoub (2026)](https://www.brennancenter.org/our-work/research-reports/dangers-trump-administrations-data-consolidation-efforts); DwiR: *Common Data Problems*; DwiR: *What Is Tidy Data?*; DwiR: *Reading Data from Databases and the Web* | Data consolidation; combining tables; observational units; data integration risks; privacy and institutional power |
+| 15 | Oct 27 | Data Types & Classes | [R4DS Ch. 16](https://r4ds.hadley.nz/factors); DwiR: *Converting Data Types in R*; DwiR: *Building and Printing Tibbles*; DwiR: *Subsetting Tibbles* | Numeric, character, logical, and factor data; type conversion; type checking; tibbles |
+| 16 | Oct 29 | Data Recoding & Cleaning | [R4DS Ch. 7](https://r4ds.hadley.nz/data-import.html); DwiR: *Missing and Special Values in R*; DwiR: *Manipulating Strings in R with `stringr`*; DwiR: *Detecting Outliers* | Missing values; special values; string cleaning; outliers; documenting cleaning decisions |
 | — | Nov 3 | *Election Day — No Class* | — |  |
-| 17 | Nov 5 | Text-as-Data | [R4DS Ch. 14](https://r4ds.hadley.nz/strings.html) |  |
-| 18 | Nov 10 | *Lab:* Wrangling & Visualizing our Time-Use Survey | — |  |
+| 17 | Nov 5 | Text-as-Data | [R4DS Ch. 14](https://r4ds.hadley.nz/strings.html); DwiR: *Manipulating Strings in R with `stringr`*; DwiR: *Breaking Apart Columns with `separate()`*; DwiR: *Combining Columns with `unite()`* | String manipulation; detecting and replacing patterns; splitting text fields; combining text fields |
+| 18 | Nov 10 | *Lab:* Wrangling & Visualizing our Time-Use Survey | —; DwiR: *What Is Tidy Data?*; DwiR: *Working with Dates and Times in R*; DwiR: *Visualizing the Coal Dataset* | Applied wrangling; tidy survey data; dates and time variables; missing and unusual values; visualization after cleaning |
 
 ---
 
