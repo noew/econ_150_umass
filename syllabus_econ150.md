@@ -120,14 +120,14 @@ You will need to install the following free software on your own laptop:
 
 Instructions on downloading and installing these tools on your computer can be found on Canvas.
 
-### Readings
+### Readings & Other Resources
 
 The main readings for this class are drawn from two free online textbooks:
 
 - (**R4DS**) *R for Data Science*, Wickham & Grolemund, [r4ds.hadley.nz](https://r4ds.hadley.nz)
 - (**IMS**) *Introduction to Modern Statistics*, Çetinkaya-Rundel & Hardin, [openintro-ims.netlify.app](https://openintro-ims.netlify.app)
 
-Additional readings are linked below and on Canvas. 
+You will also be asked to view lectures from the LinkedIn Learning course ["Data Wrangling in R"](https://www.linkedin.com/learning/data-wrangling-in-r-14135737) by Mike Chapple. UMass Amherst subscribes to Linkedin Learning, so you can access this resource for free.
 
 ---
 
@@ -135,63 +135,63 @@ Additional readings are linked below and on Canvas.
 
 ### Unit 1: Getting Started (Sep 8–17)
 
-| # | Date | Topic | Readings |
-|---|------|-------|----------|
-| 1 | Sep 8 | Welcome to Data Science for Economics | — |
-| 2 | Sep 10 | Meet the Toolkit | [R4DS Intro](https://r4ds.hadley.nz/intro.html) |
-| 3 | Sep 15 | Data, Metadata, and the Politics of Measurement | [NYT: American Puzzle](https://www.nytimes.com/interactive/2023/10/16/us/census-race-ethnicity.html) |
-| 4 | Sep 17 | *Lab:* Reproducible Workflow | [R4DS Ch. 6](https://r4ds.hadley.nz/workflow-scripts.html) · [R4DS Ch. 28](https://r4ds.hadley.nz/quarto.html) |
+| # | Date | Topic | Readings/Videos | Concepts |
+|---|------|-------|-----------------|----------|
+| 1 | Sep 8 | Welcome to Data Science for Economics | — | Data science life cycle; "we data" |
+| 2 | Sep 10 | Meet the Toolkit | [R4DS Intro](https://r4ds.hadley.nz/intro.html) | R, RStudio, and Quarto; packages; data frames and functions; pipes |
+| 3 | Sep 15 | Data, Metadata, and the Politics of Measurement | [NYT: American Puzzle](https://www.nytimes.com/interactive/2023/10/16/us/census-race-ethnicity.html) | Data and metadata; units of observation; variable types; measurement choices; institutional power |
+| 4 | Sep 17 | *Lab:* Reproducible Workflow | [R4DS Ch. 6](https://r4ds.hadley.nz/workflow-scripts.html) · [R4DS Ch. 28](https://r4ds.hadley.nz/quarto.html) | RStudio Projects; relative paths; Quarto; reproducible code; LendingClub data |
 
 ---
 
 ### Unit 2: Visualizing Data (Sep 22–Oct 1)
 
-| # | Date | Topic | Readings |
-|---|------|-------|----------|
-| 5 | Sep 22 | Introduction to Data Visualization | [R4DS Ch. 1](https://r4ds.hadley.nz/data-visualize.html) |
-| 6 | Sep 24 | Visualizing Numerical & Categorical Data | [IMS Ch. 4](https://openintro-ims.netlify.app/04-explore-categorical) · [IMS Ch. 5](https://openintro-ims.netlify.app/05-explore-numerical) |
-| 7 | Sep 29 | Effective Data Visualization: Storytelling vs. Misrepresentation | [IMS Ch. 6](https://openintro-ims.netlify.app/explore-applications) |
-| 8 | Oct 1 | *Lab:* Redlining, Maps & Geospatial Data | — |
+| # | Date | Topic | Readings/Videos | Concepts |
+|---|------|-------|-----------------|----------|
+| 5 | Sep 22 | Introduction to Data Visualization | [R4DS Ch. 1](https://r4ds.hadley.nz/data-visualize.html) | Grammar of graphics; aesthetic mappings; geoms; gapminder data |
+| 6 | Sep 24 | Visualizing Numerical & Categorical Data | [IMS Ch. 4](https://openintro-ims.netlify.app/04-explore-categorical) · [IMS Ch. 5](https://openintro-ims.netlify.app/05-explore-numerical) | Numerical and categorical variables; distributions; histograms; bar charts; scatterplots |
+| 7 | Sep 29 | Effective Data Visualization: Storytelling vs. Misrepresentation | [IMS Ch. 6](https://openintro-ims.netlify.app/explore-applications) | Visualization and communication; misleading scales; decluttering; color and labeling; effective geoms |
+| 8 | Oct 1 | *Lab:* Redlining, Maps & Geospatial Data | — | Spatial data; points, lines, and polygons; spatial inequality; map projections; data centers |
 
 ---
 
 ### Unit 3: Data Gathering & Wrangling (Oct 6–Nov 10)
 
-| # | Date | Topic | Readings |
-|---|------|-------|----------|
-| 9 | Oct 6 | Data Wrangling: Working with a Single Data Frame | [R4DS Ch. 3](https://r4ds.hadley.nz/data-transform.html) |
-| 10 | Oct 8 | Data Gathering | — |
-| 11 | Oct 13 | Tidy Data: Introduction to Pivoting and Reshaping | [R4DS Ch. 5](https://r4ds.hadley.nz/data-tidy.html) |
-| 12 | Oct 15 | Tidy Data: Time Series & Panel Data | [R4DS Ch. 17](https://r4ds.hadley.nz/datetimes.html) |
-| 13 | Oct 20 | Working with Multiple Data Frames | [R4DS Ch. 19](https://r4ds.hadley.nz/joins.html) |
-| 14 | Oct 22 | *Lab:* Joins & Ethics of Data Consolidation | [Ayoub (2026)](https://www.brennancenter.org/our-work/research-reports/dangers-trump-administrations-data-consolidation-efforts) |
-| 15 | Oct 27 | Data Types & Classes | [R4DS Ch. 16](https://r4ds.hadley.nz/factors) |
-| 16 | Oct 29 | Data Recoding & Cleaning | [R4DS Ch. 7](https://r4ds.hadley.nz/data-import.html) |
-| — | Nov 3 | *Election Day — No Class* | — |
-| 17 | Nov 5 | Text-as-Data | [R4DS Ch. 14](https://r4ds.hadley.nz/strings.html) |
-| 18 | Nov 10 | *Lab:* Wrangling & Visualizing our Time-Use Survey | — |
+| # | Date | Topic | Readings/Videos | Concepts |
+|---|------|-------|-----------------|----------|
+| 9 | Oct 6 | Data Wrangling: Working with a Single Data Frame | [R4DS Ch. 3](https://r4ds.hadley.nz/data-transform.html) | Pipelines; `filter()`; `mutate()`; `summarize()`; `count()`; units of observation |
+| 10 | Oct 8 | Data Gathering | — | Surveys and interviews; web scraping and APIs; privacy and consent; copyright and AI; webscraper.io |
+| 11 | Oct 13 | Tidy Data: Introduction to Pivoting and Reshaping | [R4DS Ch. 5](https://r4ds.hadley.nz/data-tidy.html) | wide vs long formats; id variables; `pivot`-commands; WB data |
+| 12 | Oct 15 | Tidy Data: Time Series & Panel Data | [R4DS Ch. 17](https://r4ds.hadley.nz/datetimes.html) |  |
+| 13 | Oct 20 | Working with Multiple Data Frames | [R4DS Ch. 19](https://r4ds.hadley.nz/joins.html) |  |
+| 14 | Oct 22 | *Lab:* Joins & Ethics of Data Consolidation | [Ayoub (2026)](https://www.brennancenter.org/our-work/research-reports/dangers-trump-administrations-data-consolidation-efforts) |  |
+| 15 | Oct 27 | Data Types & Classes | [R4DS Ch. 16](https://r4ds.hadley.nz/factors) |  |
+| 16 | Oct 29 | Data Recoding & Cleaning | [R4DS Ch. 7](https://r4ds.hadley.nz/data-import.html) |  |
+| — | Nov 3 | *Election Day — No Class* | — |  |
+| 17 | Nov 5 | Text-as-Data | [R4DS Ch. 14](https://r4ds.hadley.nz/strings.html) |  |
+| 18 | Nov 10 | *Lab:* Wrangling & Visualizing our Time-Use Survey | — |  |
 
 ---
 
 ### Unit 4: Modeling, Prediction & Algorithmic Fairness (Nov 12–Dec 1)
 
-| # | Date | Topic | Readings |
-|---|------|-------|----------|
-| 19 | Nov 12 | Modeling: Trend Lines as Summaries | [IMS Ch. 7](https://openintro-ims.netlify.app/07-model-slr) |
-| 20 | Nov 17 | Modeling: Shapes of Relationships | TBD |
-| 21 | Nov 19 | Scientific Studies, Confounding & Simpson's Paradox | [IMS Ch. 2](https://openintro-ims.netlify.app/02-data-design) |
-| 22 | Dec 1 | *Lab:* Algorithmic Decision-Making & Fairness | [ProPublica, "Machine Bias" (2016)](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) |
+| # | Date | Topic | Readings/Videos | Concepts |
+|---|------|-------|-----------------|----------|
+| 19 | Nov 12 | Modeling: Trend Lines as Summaries | [IMS Ch. 7](https://openintro-ims.netlify.app/07-model-slr) |  |
+| 20 | Nov 17 | Modeling: Shapes of Relationships | TBD |  |
+| 21 | Nov 19 | Scientific Studies, Confounding & Simpson's Paradox | [IMS Ch. 2](https://openintro-ims.netlify.app/02-data-design) |  |
+| 22 | Dec 1 | *Lab:* Algorithmic Decision-Making & Fairness | [ProPublica, "Machine Bias" (2016)](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) |  |
 
 ---
 
 ### Unit 5: Communicating Results with Interactive Dashboards & Reports (Dec 3–15)
 
-| # | Date | Topic | Readings |
-|---|------|-------|----------|
-| 23 | Dec 3 | Interactive Data Visualization | TBD |
-| 24 | Dec 8 | Generating Interactive Reports | — |
-| 25 | Dec 10 | Work on Group Projects | — |
-| 26 | Dec 15 | Presentations *(last day)* | — |
+| # | Date | Topic | Readings/Videos | Concepts |
+|---|------|-------|-----------------|----------|
+| 23 | Dec 3 | Interactive Data Visualization | TBD |  |
+| 24 | Dec 8 | Generating Interactive Reports | — |  |
+| 25 | Dec 10 | Work on Group Projects | — |  |
+| 26 | Dec 15 | Presentations *(last day)* | — |  |
 
 ---
 
