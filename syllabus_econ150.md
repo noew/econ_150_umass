@@ -85,7 +85,7 @@ This project allows you to identify an economic or social problem, locate and ev
 | Milestone | Due Date | Weight | Description |
 |---|---|---|---|
 | **Team Charter** | Oct 1 (Week 4) | 5% | One-page document: research interest, team roles, norms, and communication plan |
-| **Data Proposal** | Oct 15 (Week 6) | 5% | 1-2 pages: research question, proposed data sources and feasibility assessment |
+| **Data Proposal** | Oct 20 (Week 7) | 5% | 1-2 pages: research question, proposed data sources and feasibility assessment |
 | **Progress Check-in** | Nov 5 (Week 9) | 5% | Submit at least one preliminary visualization |
 | **Presentation** | Dec 15 | 15% | Present & submit your interactive report |
 
@@ -127,9 +127,10 @@ The main readings for this class are drawn from two free online textbooks:
 - (**R4DS**) *R for Data Science*, Wickham & Grolemund, [r4ds.hadley.nz](https://r4ds.hadley.nz)
 - (**IMS**) *Introduction to Modern Statistics*, Çetinkaya-Rundel & Hardin, [openintro-ims.netlify.app](https://openintro-ims.netlify.app)
 
-You will also be asked to view videos from the following LinkedIn Learning courses. UMass Amherst subscribes to Linkedin Learning, so you can access these resources for free:
+You will also be asked to view videos from the following LinkedIn Learning courses. UMass Amherst subscribes to Linkedin Learning, so you can access these resources for free (sign-in using your UMass email address):
 
 - (**DwiR**) [*"Data Wrangling in R"*](https://www.linkedin.com/learning/data-wrangling-in-r-14135737) by Mike Chapple.
+- (**DVizR**) [*"Data Visualization in R with GGplot2"*](https://www.linkedin.com/learning/data-visualization-in-r-with-ggplot2-24583012/) by Mike Chapple.
 
 ---
 
@@ -150,10 +151,10 @@ You will also be asked to view videos from the following LinkedIn Learning cours
 
 | # | Date | Topic | Readings/Videos | Concepts |
 |---|------|-------|-----------------|----------|
-| 5 | Sep 22 | Introduction to Data Visualization | [R4DS Ch. 1](https://r4ds.hadley.nz/data-visualize.html) | Grammar of graphics; aesthetic mappings; geoms; gapminder data |
-| 6 | Sep 24 | Visualizing Numerical & Categorical Data | [IMS Ch. 4](https://openintro-ims.netlify.app/04-explore-categorical) · [IMS Ch. 5](https://openintro-ims.netlify.app/05-explore-numerical) | Numerical and categorical variables; distributions; histograms; bar charts; scatterplots |
-| 7 | Sep 29 | Effective Data Visualization: Storytelling vs. Misrepresentation | [IMS Ch. 6](https://openintro-ims.netlify.app/explore-applications) | Visualization and communication; misleading scales; decluttering; color and labeling; effective geoms |
-| 8 | Oct 1 | *Lab:* Redlining, Maps & Geospatial Data | — | Spatial data; points, lines, and polygons; spatial inequality; map projections; data centers |
+| 5 | Sep 22 | Introduction to Data Visualization | [R4DS Ch. 1](https://r4ds.hadley.nz/data-visualize.html); DVizR: *Intro*/*Part 1* | Grammar of graphics; aesthetic mappings; geoms; gapminder data |
+| 6 | Sep 24 | Visualizing Numerical & Categorical Data | [IMS Ch. 4](https://openintro-ims.netlify.app/04-explore-categorical) · [IMS Ch. 5](https://openintro-ims.netlify.app/05-explore-numerical); DVizR: *Part 2* | Numerical and categorical variables; distributions; histograms; bar charts; scatterplots |
+| 7 | Sep 29 | Effective Data Visualization: Storytelling vs. Misrepresentation | [IMS Ch. 6](https://openintro-ims.netlify.app/explore-applications);  DVizR: *Part 3* | Visualization and communication; misleading scales; decluttering; color and labeling; effective geoms |
+| 8 | Oct 1 | *Lab:* Redlining, Maps & Geospatial Data | DVizR: *Part 4* | Spatial data; points, lines, and polygons; spatial inequality; map projections; data centers |
 
 ---
 
@@ -161,27 +162,27 @@ You will also be asked to view videos from the following LinkedIn Learning cours
 
 | # | Date | Topic | Readings/Videos | Concepts |
 |---|------|-------|-----------------|----------|
-| 9 | Oct 6 | Data Wrangling: Working with a Single Data Frame | [R4DS Ch. 3](https://r4ds.hadley.nz/data-transform.html); DwiR: *Filtering Tibbles*; DwiR: *Subsetting Tibbles*; DwiR: *What Is Tidy Data?* | Pipelines; `filter()`; `mutate()`; `summarize()` and `count()`; units of observation |
-| 10 | Oct 8 | Data Gathering | DwiR: *What Are CSV Files?*; DwiR: *Importing CSV Files into R*; DwiR: *Reading Data from Databases and the Web* | Surveys and interviews; observation and experiments; web scraping and APIs; privacy and consent; copyright and AI |
-| 11 | Oct 13 | Tidy Data: Introduction to Pivoting and Reshaping | [R4DS Ch. 5](https://r4ds.hadley.nz/data-tidy.html); DwiR: *What Is Tidy Data?*; DwiR: *Wide vs. Long Datasets*; DwiR: *Making Wide Datasets Long with `pivot_longer()`* | Tidy-data principles; variables, observations, and values; wide and long data; pivoting |
-| 12 | Oct 15 | Tidy Data: Time Series & Panel Data | [R4DS Ch. 17](https://r4ds.hadley.nz/datetimes.html); DwiR: *Working with Dates and Times in R*; DwiR: *Making Wide Datasets Long with `pivot_longer()`*; DwiR: *Making Long Datasets Wide with `pivot_wider()`* | Dates and times; date components; time-series structure; reshaping panel data |
-| 13 | Oct 20 | Working with Multiple Data Frames | [R4DS Ch. 19](https://r4ds.hadley.nz/joins.html); DwiR: *Common Data Problems*; DwiR: *What Is Tidy Data?*; DwiR: *Segmenting the Coal Dataset* | Observational units; multiple tables; separating data by unit; avoiding duplicated or double-counted observations |
-| 14 | Oct 22 | *Lab:* Joins & Ethics of Data Consolidation | [Ayoub (2026)](https://www.brennancenter.org/our-work/research-reports/dangers-trump-administrations-data-consolidation-efforts); DwiR: *Common Data Problems*; DwiR: *What Is Tidy Data?*; DwiR: *Reading Data from Databases and the Web* | Data consolidation; combining tables; observational units; data integration risks; privacy and institutional power |
-| 15 | Oct 27 | Data Types & Classes | [R4DS Ch. 16](https://r4ds.hadley.nz/factors); DwiR: *Converting Data Types in R*; DwiR: *Building and Printing Tibbles*; DwiR: *Subsetting Tibbles* | Numeric, character, logical, and factor data; type conversion; type checking; tibbles |
-| 16 | Oct 29 | Data Recoding & Cleaning | [R4DS Ch. 7](https://r4ds.hadley.nz/data-import.html); DwiR: *Missing and Special Values in R*; DwiR: *Manipulating Strings in R with `stringr`*; DwiR: *Detecting Outliers* | Missing values; special values; string cleaning; outliers; documenting cleaning decisions |
+| 9 | Oct 6 | Data Wrangling: Working with a Single Data Frame | [R4DS Ch. 3](https://r4ds.hadley.nz/data-transform.html); DwiR: *Filtering Tibbles*; DwiR: *Subsetting Tibbles*; DwiR: *What Is Tidy Data?* | Pipelines; `filter()`; `mutate()`; `summarize()`; `count()`; units of observation |
+| 10 | Oct 8 | Data Gathering | DwiR: *What Are CSV Files?*; DwiR: *Importing CSV Files into R*; DwiR: *Reading Data from Databases and the Web* | Surveys and interviews; web scraping and APIs; privacy and consent; copyright and AI; webscraper.io |
+| 11 | Oct 13 | Tidy Data: Introduction to Pivoting and Reshaping | [R4DS Ch. 5](https://r4ds.hadley.nz/data-tidy.html); DwiR: *What Is Tidy Data?*; DwiR: *Wide vs. Long Datasets*; DwiR: *Making Wide Datasets Long with `pivot_longer()`* | wide vs long formats; id variables; pivot-commands; WB data |
+| 12 | Oct 15 | Tidy Data: Time Series & Panel Data | [R4DS Ch. 17](https://r4ds.hadley.nz/datetimes.html); DwiR: *Working with Dates and Times in R*; DwiR: *Making Long Datasets Wide with `pivot_wider()`* | Dates and times; time-series visualization; uses of panel data |
+| 13 | Oct 20 | Working with Multiple Data Frames | [R4DS Ch. 19](https://r4ds.hadley.nz/joins.html); | multiple tables; separating data by unit; avoiding duplicated or double-counted observations |
+| 14 | Oct 22 | *Lab:* Joins & Ethics of Data Consolidation | [Ayoub (2026)](https://www.brennancenter.org/our-work/research-reports/dangers-trump-administrations-data-consolidation-efforts) |   |
+| 15 | Oct 27 | Data Types & Classes | [R4DS Ch. 16](https://r4ds.hadley.nz/factors); DwiR: *Converting Data Types in R* | Numeric, character, logical, and factor data; type conversion; type checking; tibbles |
+| 16 | Oct 29 | Data Recoding & Cleaning | [R4DS Ch. 7](https://r4ds.hadley.nz/data-import.html); DwiR: *Missing and Special Values in R*; DwiR: *Detecting Outliers* | Missing values; special values; string cleaning; outliers |
 | — | Nov 3 | *Election Day — No Class* | — |  |
-| 17 | Nov 5 | Text-as-Data | [R4DS Ch. 14](https://r4ds.hadley.nz/strings.html); DwiR: *Manipulating Strings in R with `stringr`*; DwiR: *Breaking Apart Columns with `separate()`*; DwiR: *Combining Columns with `unite()`* | String manipulation; detecting and replacing patterns; splitting text fields; combining text fields |
-| 18 | Nov 10 | *Lab:* Wrangling & Visualizing our Time-Use Survey | —; DwiR: *What Is Tidy Data?*; DwiR: *Working with Dates and Times in R*; DwiR: *Visualizing the Coal Dataset* | Applied wrangling; tidy survey data; dates and time variables; missing and unusual values; visualization after cleaning |
+| 17 | Nov 5 | Text-as-Data | [R4DS Ch. 14](https://r4ds.hadley.nz/strings.html); DwiR: *Manipulating Strings in R with `stringr`*; DwiR: *Breaking Apart Columns with `separate()`*; DwiR: *Combining Columns with `unite()`* | detecting and replacing patterns; splitting text fields; combining text fields |
+| 18 | Nov 10 | *Lab:* Wrangling & Visualizing our Time-Use Survey | — | Applied wrangling; visualization with tempograms |
 
 ---
 
-### Unit 4: Modeling, Prediction & Algorithmic Fairness (Nov 12–Dec 1)
+### Unit 4: Data Analysis, Modeling & Prediction (Nov 12–Dec 1)
 
 | # | Date | Topic | Readings/Videos | Concepts |
 |---|------|-------|-----------------|----------|
-| 19 | Nov 12 | Modeling: Trend Lines as Summaries | [IMS Ch. 7](https://openintro-ims.netlify.app/07-model-slr) |  |
-| 20 | Nov 17 | Modeling: Shapes of Relationships | TBD |  |
-| 21 | Nov 19 | Scientific Studies, Confounding & Simpson's Paradox | [IMS Ch. 2](https://openintro-ims.netlify.app/02-data-design) |  |
+| 19 | Nov 12 | Summarizing relationships | [IMS Ch. 7](https://openintro-ims.netlify.app/07-model-slr) |  |
+| 20 | Nov 17 | LLMs for data analysis | TBD |  |
+| 21 | Nov 19 | LLMs for data analysis | TBD |  |
 | 22 | Dec 1 | *Lab:* Algorithmic Decision-Making & Fairness | [ProPublica, "Machine Bias" (2016)](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing) |  |
 
 ---
